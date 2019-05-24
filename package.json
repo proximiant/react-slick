@@ -16,7 +16,7 @@
     "lint": "eslint src",
     "gen": "node examples/scripts/generateExampleConfigs.js && node examples/scripts/generateExamples.js && xdg-open docs/jquery.html",
     "precommit": "lint-staged",
-    "prepare": "npm run build"
+    "prepare": "npm run prepublish"
   },
   "author": "Kiran Abburi",
   "license": "MIT",
